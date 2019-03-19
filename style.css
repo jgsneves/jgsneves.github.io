@@ -1,0 +1,102 @@
+body {
+	background-image: url(background.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-attachment: fixed;
+	background-color: black;
+}
+
+* {
+	font-family: 'Merriweather', serif;
+	line-height: 35px;
+}
+
+h1 {
+	font-size: 3em;
+	line-height: 1.5;
+	text-align: center;
+	color: black;
+}
+
+.img1 {
+	width: 100%;
+	max-width: 500px;
+	height: auto;
+}
+
+.img2 {
+	width: 100%
+	max-width: 30px;
+	height: auto;
+}
+
+.div1 {
+	background-color: rgba(255, 255, 255, 0.8);
+	padding: 50px;
+	max-width: 600px;
+	margin: auto;
+	border-radius: 10px;
+	border: 2px solid black;
+	color: black;
+}
+
+.logon {
+	background-color: rgba(255, 255, 255, 0.8);
+	padding: 10px;
+	max-width: 200px;
+	margin: auto;
+	border-radius: 10px;
+}
+
+
+.figuratopo {
+	width: 100%;
+	max-width: 697px;
+	height: auto;
+	border: 3px solid black;
+	margin: auto;
+}
+
+.menu {
+	color: black;
+	text-align: center;
+	background-color: rgba(255, 255, 255, 0.8);
+	max-width: 800px;
+	font-size: 2em;
+	font-weight: bold;
+	border-radius: 0 0 200px 200px;
+	border: 2px solid black;
+	border-top: 0px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 30px;
+	padding-right: 30px;
+	
+	margin: auto;
+}
+
+.link_inicio:hover {
+	color: red;
+}
+
+.link_register:hover {
+	color: red;
+}
+
+.link_login:hover {
+	color: red;
+}
+
+.link_landingpage:hover {
+	color: red;
+}
+
+a {
+	color: black;
+}
+
+header {
+	display: flex;
+	flex-direction: column;
+}

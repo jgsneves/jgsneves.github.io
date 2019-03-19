@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Registro</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
+</head>
+<body>
+	<header>
+		<img src="register.jpg" class=figuratopo>
+		<div class="menu">
+			<a href="index.html" class="link_inicio">Início</a> |
+			<a href="register.html" class="link_register">Registrar</a> |
+			<a href="login.html" class="link_login">Login</a> |
+			<a href="landingpage.html" class="link_landingpage">Sobre Nós</a>
+		</div><br>
+	</header>
+	<section>
+		<!-- usar método POST -->
+		<div class="div1">
+			<h1>Você pode se registrar em nosso site!</h1><br>
+			<form method="POST">
+				Primeiro Nome: <input type="text" name="primeironome" style="height: 20px"><br>
+				Último Nome: <input type="text" name="ultimonome" style="height: 20px"><br>
+				Nascimento: <input type="date" name="datanascimento" style="height: 20px"><br>
+				E-mail: <input type="email" name="email" style="height: 20px"><br>
+				Senha: <input type="password" name="senha" minlength="8" style="height: 20px"><br>
+				Gênero:<br>
+				<input type="radio" name="genero" value="masculino">masculino<br>
+				<input type="radio" name="genero" value="feminino">feminino<br>
+				<input type="radio" name="genero" value="outro">outro<br>
+				Número de telefone celular: <input type="text" name="telefone" style="height: 20px"><br>
+				Interesses:<br>
+				<input type="checkbox" name="interesses">Suplementos<br>
+				<input type="checkbox" name="interesses">Verduras<br>
+				<input type="checkbox" name="interesses">Cervejas<br>
+				<br>
+				<input type="submit" value="Registrar">
+
+			</form>
+		
+	</section>
+	
+</body>
+</html>
